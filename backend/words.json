@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "word": "ephemeral",
+    "part_of_speech": "adjective",
+    "definition": "Lasting for a very short time; transitory.",
+    "example": "The ephemeral beauty of cherry blossoms reminds us to cherish fleeting moments."
+  },
+  {
+    "id": 2,
+    "word": "sycophant",
+    "part_of_speech": "noun",
+    "definition": "A person who acts obsequiously toward someone important in order to gain advantage.",
+    "example": "The politician surrounded himself with sycophants who never questioned his decisions."
+  },
+  {
+    "id": 3,
+    "word": "ubiquitous",
+    "part_of_speech": "adjective",
+    "definition": "Present, appearing, or found everywhere.",
+    "example": "Smartphones have become so ubiquitous that it's rare to see someone without one."
+  },
+  {
+    "id": 4,
+    "word": "loquacious",
+    "part_of_speech": "adjective",
+    "definition": "Tending to talk a great deal; talkative.",
+    "example": "The loquacious tour guide kept the group entertained with stories throughout the entire visit."
+  },
+  {
+    "id": 5,
+    "word": "ameliorate",
+    "part_of_speech": "verb",
+    "definition": "To make something bad or unsatisfactory better; to improve.",
+    "example": "The new policies were designed to ameliorate the living conditions in the struggling neighborhood."
+  },
+  {
+    "id": 6,
+    "word": "pernicious",
+    "part_of_speech": "adjective",
+    "definition": "Having a harmful effect, especially in a gradual or subtle way.",
+    "example": "The pernicious influence of misinformation slowly eroded public trust in science."
+  },
+  {
+    "id": 7,
+    "word": "equanimity",
+    "part_of_speech": "noun",
+    "definition": "Mental calmness and composure, especially in a difficult situation.",
+    "example": "She faced the unexpected setback with remarkable equanimity, staying focused and calm."
+  },
+  {
+    "id": 8,
+    "word": "obfuscate",
+    "part_of_speech": "verb",
+    "definition": "To render obscure, unclear, or unintelligible; to confuse.",
+    "example": "The legal document seemed designed to obfuscate rather than clarify the terms of the agreement."
+  },
+  {
+    "id": 9,
+    "word": "perspicacious",
+    "part_of_speech": "adjective",
+    "definition": "Having a ready insight into things; shrewd and discerning.",
+    "example": "The perspicacious detective noticed the small detail that everyone else had overlooked."
+  },
+  {
+    "id": 10,
+    "word": "recalcitrant",
+    "part_of_speech": "adjective",
+    "definition": "Having an obstinately uncooperative attitude toward authority or discipline.",
+    "example": "The recalcitrant student refused to follow the classroom rules despite repeated warnings."
+  },
+  {
+    "id": 11,
+    "word": "cogent",
+    "part_of_speech": "adjective",
+    "definition": "Clear, logical, and convincing.",
+    "example": "The lawyer presented a cogent argument that swayed the jury in her client's favor."
+  },
+  {
+    "id": 12,
+    "word": "laconic",
+    "part_of_speech": "adjective",
+    "definition": "Using very few words; brief and concise.",
+    "example": "His laconic reply of 'Fine' revealed nothing about what he was actually feeling."
+  },
+  {
+    "id": 13,
+    "word": "intrepid",
+    "part_of_speech": "adjective",
+    "definition": "Fearless; adventurous; bold.",
+    "example": "The intrepid explorer crossed the frozen tundra despite the extreme conditions."
+  },
+  {
+    "id": 14,
+    "word": "solipsism",
+    "part_of_speech": "noun",
+    "definition": "The view that the self is all that can be known to exist; extreme self-centeredness.",
+    "example": "His solipsism made it impossible for him to understand why others felt differently than he did."
+  },
+  {
+    "id": 15,
+    "word": "disparate",
+    "part_of_speech": "adjective",
+    "definition": "Essentially different in kind; not able to be compared.",
+    "example": "The committee brought together people with disparate backgrounds to approach the problem creatively."
+  },
+  {
+    "id": 16,
+    "word": "magnanimous",
+    "part_of_speech": "adjective",
+    "definition": "Generous or forgiving, especially toward a rival or less powerful person.",
+    "example": "Despite winning by a large margin, she was magnanimous in victory and praised her opponents."
+  },
+  {
+    "id": 17,
+    "word": "perfidious",
+    "part_of_speech": "adjective",
+    "definition": "Deceitful and untrustworthy; guilty of betrayal.",
+    "example": "The perfidious advisor secretly passed information to the enemy while pretending to be loyal."
+  },
+  {
+    "id": 18,
+    "word": "truculent",
+    "part_of_speech": "adjective",
+    "definition": "Eager or quick to argue or fight; aggressively defiant.",
+    "example": "The truculent customer argued with every staff member and refused to accept any solution."
+  },
+  {
+    "id": 19,
+    "word": "insouciant",
+    "part_of_speech": "adjective",
+    "definition": "Showing a casual lack of concern; carefree.",
+    "example": "He strolled into the meeting ten minutes late with an insouciant shrug and a half-smile."
+  },
+  {
+    "id": 20,
+    "word": "propitious",
+    "part_of_speech": "adjective",
+    "definition": "Giving or indicating a good chance of success; favorable.",
+    "example": "The calm weather and clear skies created propitious conditions for the mountain climb."
+  }
+]

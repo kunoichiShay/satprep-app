@@ -1,0 +1,682 @@
+[
+  {
+    "id": 1,
+    "word": "Ephemeral",
+    "part_of_speech": "adjective",
+    "root": "hēmera (Greek) = day",
+    "root_meaning": "Lasting only a day",
+    "definition": "Lasting for a very short time; transitory.",
+    "example": "The ephemeral beauty of cherry blossoms draws crowds each spring, even though they fade within days.",
+    "memory_tip": "Think of an ephemeral experience — like a snap that disappears!",
+    "category": "time",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Occurring repeatedly and frequently",
+      "Extremely large or vast in scope",
+      "Deeply rooted and permanent"
+    ]
+  },
+  {
+    "id": 2,
+    "word": "Sycophant",
+    "part_of_speech": "noun",
+    "root": "sykophantēs (Greek) = informer",
+    "root_meaning": "One who tells tales",
+    "definition": "A person who flatters powerful people to gain personal advantage.",
+    "example": "The CEO was surrounded by sycophants who praised every decision, no matter how flawed.",
+    "memory_tip": "A sycophant is like a 'sick fan' — obsessively praising someone!",
+    "category": "character",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "A fierce critic who never holds back opinions",
+      "Someone who works in complete silence",
+      "A person known for their generosity"
+    ]
+  },
+  {
+    "id": 3,
+    "word": "Ubiquitous",
+    "part_of_speech": "adjective",
+    "root": "ubique (Latin) = everywhere",
+    "root_meaning": "Found in all places",
+    "definition": "Present, appearing, or found everywhere at the same time.",
+    "example": "Smartphones have become so ubiquitous that it's rare to see someone without one.",
+    "memory_tip": "Ubiquitous = 'you be everywhere!' — it's everywhere you look!",
+    "category": "quantity",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Extremely rare and hard to find",
+      "Related to ancient cultures and traditions",
+      "Occurring only during specific seasons"
+    ]
+  },
+  {
+    "id": 4,
+    "word": "Equanimity",
+    "part_of_speech": "noun",
+    "root": "aequus (Latin) = equal + animus = spirit",
+    "root_meaning": "Equal spirit or mind",
+    "definition": "Mental calmness and composure, especially in difficult situations.",
+    "example": "She faced the devastating news with remarkable equanimity, staying focused and composed.",
+    "memory_tip": "Equanimity = 'equal' + 'animity' — keeping your spirit equal/balanced!",
+    "category": "emotion",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Extreme anger and loss of self-control",
+      "A tendency to overthink every problem",
+      "The feeling of overwhelming excitement"
+    ]
+  },
+  {
+    "id": 5,
+    "word": "Perspicacious",
+    "part_of_speech": "adjective",
+    "root": "perspicere (Latin) = to see clearly",
+    "root_meaning": "Able to see through things",
+    "definition": "Having a ready insight into things; shrewd and discerning.",
+    "example": "The perspicacious investor spotted the startup's potential before anyone else did.",
+    "memory_tip": "Per-SPIC-acious — you can SPY through things with sharp insight!",
+    "category": "intelligence",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Unable to focus or concentrate on tasks",
+      "Extremely talkative and outgoing",
+      "Prone to making poor decisions"
+    ]
+  },
+  {
+    "id": 6,
+    "word": "Recalcitrant",
+    "part_of_speech": "adjective",
+    "root": "recalcitrare (Latin) = to kick back",
+    "root_meaning": "Kicking back against authority",
+    "definition": "Stubbornly resistant to authority or control; uncooperative.",
+    "example": "The recalcitrant student refused to follow classroom rules despite repeated warnings.",
+    "memory_tip": "Recalcitrant — like a stubborn CALF that won't be herded!",
+    "category": "behavior",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Enthusiastically cooperative and eager to help",
+      "Prone to excessive worry and anxiety",
+      "Having an excellent memory for details"
+    ]
+  },
+  {
+    "id": 7,
+    "word": "Cogent",
+    "part_of_speech": "adjective",
+    "root": "cogere (Latin) = to compel",
+    "root_meaning": "Compelling or driving",
+    "definition": "Clear, logical, and convincing in argument.",
+    "example": "The lawyer presented a cogent argument that swayed the entire jury.",
+    "memory_tip": "COGent — like a cog that fits perfectly and drives the machine forward!",
+    "category": "communication",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Vague and difficult to understand",
+      "Overly emotional and illogical",
+      "Long-winded and repetitive"
+    ]
+  },
+  {
+    "id": 8,
+    "word": "Laconic",
+    "part_of_speech": "adjective",
+    "root": "Lakōnikos (Greek) = from Laconia/Sparta",
+    "root_meaning": "In the manner of Spartans (known for brief speech)",
+    "definition": "Using very few words; brief and concise in speech.",
+    "example": "His laconic reply of 'Fine' revealed nothing about how he truly felt.",
+    "memory_tip": "Laconic — LAC of words! Lacking extra words!",
+    "category": "communication",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Talkative and prone to lengthy speeches",
+      "Extremely emotional when speaking",
+      "Using complex vocabulary constantly"
+    ]
+  },
+  {
+    "id": 9,
+    "word": "Magnanimous",
+    "part_of_speech": "adjective",
+    "root": "magnus (Latin) = great + animus = soul",
+    "root_meaning": "Great-souled",
+    "definition": "Very generous or forgiving, especially toward a rival or less powerful person.",
+    "example": "Despite winning by a huge margin, she was magnanimous and praised her competitors.",
+    "memory_tip": "MAGN-animous — MAGNIFICENT soul! Great and giving!",
+    "category": "character",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Extremely petty and resentful of others",
+      "Reluctant to share resources with anyone",
+      "Overly competitive and self-centered"
+    ]
+  },
+  {
+    "id": 10,
+    "word": "Perfidious",
+    "part_of_speech": "adjective",
+    "root": "perfidia (Latin) = treachery",
+    "root_meaning": "Breaking faith",
+    "definition": "Deceitful and untrustworthy; guilty of betrayal.",
+    "example": "The perfidious advisor secretly passed secrets to the enemy while pretending loyalty.",
+    "memory_tip": "PERFIDIOUS — PERFIDY is betrayal, so perfidious = treacherous!",
+    "category": "character",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Completely honest and transparent",
+      "Extremely loyal even under pressure",
+      "Shy and reluctant to speak"
+    ]
+  },
+  {
+    "id": 11,
+    "word": "Intrepid",
+    "part_of_speech": "adjective",
+    "root": "in (Latin) = not + trepidus = alarmed",
+    "root_meaning": "Not alarmed or afraid",
+    "definition": "Fearless and adventurous; bold and daring.",
+    "example": "The intrepid explorer crossed the frozen tundra despite extreme and dangerous conditions.",
+    "memory_tip": "IN-TREPID — not trepidatious (fearful)! Fearless!",
+    "category": "character",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Extremely cautious and risk-averse",
+      "Timid and easily frightened",
+      "Overly careful and hesitant"
+    ]
+  },
+  {
+    "id": 12,
+    "word": "Disparate",
+    "part_of_speech": "adjective",
+    "root": "disparatus (Latin) = separated",
+    "root_meaning": "Pulled apart or divided",
+    "definition": "Fundamentally different in kind; impossible to compare directly.",
+    "example": "The team brought together people with disparate backgrounds to solve the problem creatively.",
+    "memory_tip": "DISPAR-ate — DISPARate things don't share a pair of qualities!",
+    "category": "comparison",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Extremely similar and nearly identical",
+      "Gradually becoming the same over time",
+      "Related by a common ancestor"
+    ]
+  },
+  {
+    "id": 13,
+    "word": "Insouciant",
+    "part_of_speech": "adjective",
+    "root": "in (French) = not + soucier = to worry",
+    "root_meaning": "Not worried or caring",
+    "definition": "Showing a casual lack of concern; blithely indifferent.",
+    "example": "He strolled into the meeting ten minutes late with an insouciant shrug.",
+    "memory_tip": "IN-SOUCIANT — IN without a SOUS (care/cent) to your name about it!",
+    "category": "emotion",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Extremely anxious and worried about everything",
+      "Deeply committed and passionately concerned",
+      "Intensely focused and detail-oriented"
+    ]
+  },
+  {
+    "id": 14,
+    "word": "Propitious",
+    "part_of_speech": "adjective",
+    "root": "propitius (Latin) = favorable",
+    "root_meaning": "Giving goodwill",
+    "definition": "Giving or indicating a good chance of success; favorable.",
+    "example": "The clear skies created propitious conditions for the outdoor graduation ceremony.",
+    "memory_tip": "PRO-pitious — PRO means for! Propitious is FOR you, favorable!",
+    "category": "evaluation",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Indicating a very high chance of failure",
+      "Completely neutral with no advantages",
+      "Creating dangerous and unstable conditions"
+    ]
+  },
+  {
+    "id": 15,
+    "word": "Equivocal",
+    "part_of_speech": "adjective",
+    "root": "aequus (Latin) = equal + vox = voice",
+    "root_meaning": "Speaking equally both ways",
+    "definition": "Open to more than one interpretation; deliberately vague or ambiguous.",
+    "example": "The politician's equivocal response left reporters unsure whether he supported the bill.",
+    "memory_tip": "EQUI-vocal — EQUAL voices pointing in two directions at once!",
+    "category": "communication",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Extremely direct and unambiguous",
+      "Using only one specific meaning",
+      "Communicating with perfect clarity"
+    ]
+  },
+  {
+    "id": 16,
+    "word": "Ameliorate",
+    "part_of_speech": "verb",
+    "root": "melior (Latin) = better",
+    "root_meaning": "To make better",
+    "definition": "To make something bad or unsatisfactory better; to improve.",
+    "example": "The new policies were designed to ameliorate the living conditions in struggling neighborhoods.",
+    "memory_tip": "AMELIO-rate — rate things as A+ = MELIORATE = make better!",
+    "category": "change",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "To make something significantly worse",
+      "To keep things exactly the same",
+      "To destroy completely without trace"
+    ]
+  },
+  {
+    "id": 17,
+    "word": "Pernicious",
+    "part_of_speech": "adjective",
+    "root": "pernicies (Latin) = destruction",
+    "root_meaning": "Bringing destruction",
+    "definition": "Having a harmful effect, especially in a gradual or subtle way.",
+    "example": "The pernicious influence of misinformation slowly eroded public trust in science.",
+    "memory_tip": "PER-NICIOUS — nasty to the NINES, per(fectly) harmful!",
+    "category": "evaluation",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Extremely beneficial and health-promoting",
+      "Completely harmless and safe",
+      "Temporarily unpleasant but ultimately helpful"
+    ]
+  },
+  {
+    "id": 18,
+    "word": "Obfuscate",
+    "part_of_speech": "verb",
+    "root": "ob (Latin) = over + fuscare = to darken",
+    "root_meaning": "To darken or shadow",
+    "definition": "To make something obscure, unclear, or confusing; to muddle.",
+    "example": "The dense legal language seemed designed to obfuscate rather than clarify the terms.",
+    "memory_tip": "OBF-USCATE — to put a USCATe (haze) OVER something, obscuring it!",
+    "category": "communication",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "To explain clearly and in great detail",
+      "To illuminate and make transparent",
+      "To simplify a complex situation"
+    ]
+  },
+  {
+    "id": 19,
+    "word": "Loquacious",
+    "part_of_speech": "adjective",
+    "root": "loqui (Latin) = to speak",
+    "root_meaning": "Given to speaking a lot",
+    "definition": "Tending to talk a great deal; very talkative.",
+    "example": "The loquacious tour guide entertained the group with endless stories and anecdotes.",
+    "memory_tip": "LOQUA-cious — LOQUACIOUSly talking, LOQUAT sounds like 'lots of words'!",
+    "category": "communication",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Silent and reluctant to communicate",
+      "Speaking in a very quiet, barely audible voice",
+      "Communicating only through writing"
+    ]
+  },
+  {
+    "id": 20,
+    "word": "Truculent",
+    "part_of_speech": "adjective",
+    "root": "truculentus (Latin) = fierce",
+    "root_meaning": "Savage or fierce",
+    "definition": "Eager or quick to argue or fight; aggressively defiant.",
+    "example": "The truculent customer argued with every staff member and refused all solutions.",
+    "memory_tip": "TRUCULENT — like a truck that BULLS through everything aggressively!",
+    "category": "behavior",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Calm, peaceful, and easy to work with",
+      "Shy and reluctant to speak up",
+      "Overly eager to please and accommodate"
+    ]
+  },
+  {
+    "id": 21,
+    "word": "Tenacious",
+    "part_of_speech": "adjective",
+    "root": "tenax (Latin) = holding fast",
+    "root_meaning": "Gripping or holding tightly",
+    "definition": "Holding firmly to a purpose or goal; persistent and determined.",
+    "example": "Despite repeated failures, the tenacious scientist continued her research for decades.",
+    "memory_tip": "TENA-cious — TENAcity means holding on TIGHT, like a TENAcle!",
+    "category": "character",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Quick to give up when faced with difficulty",
+      "Inconsistent and easily distracted",
+      "Overly aggressive and combative"
+    ]
+  },
+  {
+    "id": 22,
+    "word": "Bellicose",
+    "part_of_speech": "adjective",
+    "root": "bellum (Latin) = war",
+    "root_meaning": "Warlike in nature",
+    "definition": "Demonstrating aggression and willingness to fight; warlike.",
+    "example": "The bellicose nation threatened its neighbors and refused all diplomatic solutions.",
+    "memory_tip": "BELLICOSE — BELLI-COSE sounds like 'belly-chose war'! Warlike!",
+    "category": "behavior",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Peaceful and strongly opposed to conflict",
+      "Indifferent to conflict or politics",
+      "Cooperative and eager to negotiate"
+    ]
+  },
+  {
+    "id": 23,
+    "word": "Capricious",
+    "part_of_speech": "adjective",
+    "root": "capriccio (Italian) = sudden start",
+    "root_meaning": "Acting on sudden impulse",
+    "definition": "Given to sudden and unaccountable changes of mood or behavior; unpredictable.",
+    "example": "The capricious weather shifted from sunshine to hail within minutes.",
+    "memory_tip": "CAPRICIOUS — a goat (CAPRI) jumps randomly! Capriciously unpredictable!",
+    "category": "behavior",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Extremely consistent and highly predictable",
+      "Slow to change and resistant to new ideas",
+      "Carefully planned and methodical"
+    ]
+  },
+  {
+    "id": 24,
+    "word": "Acrimonious",
+    "part_of_speech": "adjective",
+    "root": "acrimonia (Latin) = sharpness",
+    "root_meaning": "Sharp or bitter in manner",
+    "definition": "Angry and bitter, especially in speech or manner.",
+    "example": "The divorce proceedings became acrimonious, with both parties hurling accusations.",
+    "memory_tip": "ACRI-monious — ACRID (harsh smell) + MONI = sharp, bitter words!",
+    "category": "emotion",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Warm, friendly, and full of goodwill",
+      "Completely neutral and detached",
+      "Enthusiastic and celebratory"
+    ]
+  },
+  {
+    "id": 25,
+    "word": "Assuage",
+    "part_of_speech": "verb",
+    "root": "ad (Latin) = to + suavis = sweet",
+    "root_meaning": "To make sweet or pleasant",
+    "definition": "To make an unpleasant feeling less intense; to relieve or soothe.",
+    "example": "She tried to assuage her friend's fears with reassuring words and a warm hug.",
+    "memory_tip": "ASSUAGE — AS SWEET as possible to SOOTHE! AS-SUAGE your pain away!",
+    "category": "emotion",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "To intensify and worsen a bad feeling",
+      "To ignore a problem completely",
+      "To create new problems and tensions"
+    ]
+  },
+  {
+    "id": 26,
+    "word": "Circumspect",
+    "part_of_speech": "adjective",
+    "root": "circum (Latin) = around + specere = to look",
+    "root_meaning": "Looking all around before acting",
+    "definition": "Wary and unwilling to take risks; carefully considering all circumstances.",
+    "example": "The circumspect investor researched every detail before committing to the venture.",
+    "memory_tip": "CIRCUM-SPECT — to inspect all AROUND before deciding! Look before you leap!",
+    "category": "behavior",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Reckless and prone to impulsive decisions",
+      "Overly trusting without any hesitation",
+      "Completely indifferent to consequences"
+    ]
+  },
+  {
+    "id": 27,
+    "word": "Didactic",
+    "part_of_speech": "adjective",
+    "root": "didaktikos (Greek) = apt at teaching",
+    "root_meaning": "Suited for teaching",
+    "definition": "Intended to teach, especially having moral instruction as an ulterior motive.",
+    "example": "The didactic novel about the dangers of greed felt more like a lecture than a story.",
+    "memory_tip": "DIDAC-tic — DIDACTic = TAUGHT (like a dictation)! Intended to teach!",
+    "category": "communication",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Purely entertaining without any educational value",
+      "Confusing and impossible to understand",
+      "Emotionally engaging without any lesson"
+    ]
+  },
+  {
+    "id": 28,
+    "word": "Egregious",
+    "part_of_speech": "adjective",
+    "root": "ex (Latin) = out + grex = flock",
+    "root_meaning": "Standing out from the flock",
+    "definition": "Outstandingly bad; shockingly noticeable in a negative way.",
+    "example": "The judge called the lawyer's behavior an egregious violation of courtroom ethics.",
+    "memory_tip": "E-GREE-gious — so bad it makes you want to GREE-n with disgust!",
+    "category": "evaluation",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Exceptionally good and praiseworthy",
+      "Completely average and unremarkable",
+      "Slightly better than normal"
+    ]
+  },
+  {
+    "id": 29,
+    "word": "Fastidious",
+    "part_of_speech": "adjective",
+    "root": "fastidium (Latin) = loathing, disgust",
+    "root_meaning": "Full of disgust for imperfection",
+    "definition": "Very attentive to detail and accuracy; difficult to please; very exacting.",
+    "example": "The fastidious chef rejected any dish that didn't meet his exacting standards.",
+    "memory_tip": "FASTID-ious — being FUSSY and TIDY = FASTIDIOUS about every detail!",
+    "category": "behavior",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Careless and indifferent to quality",
+      "Quick to settle for less than perfect",
+      "Extremely lazy and unmotivated"
+    ]
+  },
+  {
+    "id": 30,
+    "word": "Garrulous",
+    "part_of_speech": "adjective",
+    "root": "garrire (Latin) = to chatter",
+    "root_meaning": "Given to chattering",
+    "definition": "Excessively talkative, especially on trivial matters.",
+    "example": "The garrulous neighbor recounted every detail of her vacation for two solid hours.",
+    "memory_tip": "GARRU-lous — like a parrot that GARS (talks) incessantly! Nonstop chatter!",
+    "category": "communication",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Extremely quiet and reserved",
+      "Communicating only through actions",
+      "Speaking only when absolutely necessary"
+    ]
+  },
+  {
+    "id": 31,
+    "word": "Impetuous",
+    "part_of_speech": "adjective",
+    "root": "impetus (Latin) = attack, force",
+    "root_meaning": "Acting with force or attack",
+    "definition": "Acting or done quickly without thought or care; impulsive.",
+    "example": "His impetuous decision to quit his job without a backup plan shocked his family.",
+    "memory_tip": "IMPETUOUS — IMPETU-ous decisions have lots of IMPETUS (force) but no planning!",
+    "category": "behavior",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Extremely careful and thoughtful before acting",
+      "Slow and methodical in decision-making",
+      "Hesitant and prone to procrastination"
+    ]
+  },
+  {
+    "id": 32,
+    "word": "Mendacious",
+    "part_of_speech": "adjective",
+    "root": "mendacium (Latin) = lie",
+    "root_meaning": "Given to lying",
+    "definition": "Not telling the truth; lying; deceitful.",
+    "example": "The mendacious politician had a long record of making false promises.",
+    "memory_tip": "MENDA-cious — MENDA (mend) + CIOUS — you MEND lies to make them believable!",
+    "category": "character",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Always honest and transparent",
+      "Reluctant to share any information",
+      "Known for careful, thorough research"
+    ]
+  },
+  {
+    "id": 33,
+    "word": "Nefarious",
+    "part_of_speech": "adjective",
+    "root": "nefas (Latin) = crime, wrong",
+    "root_meaning": "Against divine law",
+    "definition": "Wicked or criminal in a flagrant way.",
+    "example": "The villain's nefarious scheme involved fraud, blackmail, and theft.",
+    "memory_tip": "NEFAR-ious — 'nefarious' NEFAR = sounds like 'no fair!' Wicked and unfair!",
+    "category": "character",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Extremely kind and charitable",
+      "Completely lawful and by-the-book",
+      "Misguided but well-intentioned"
+    ]
+  },
+  {
+    "id": 34,
+    "word": "Obdurate",
+    "part_of_speech": "adjective",
+    "root": "ob (Latin) = intensifier + durare = to harden",
+    "root_meaning": "Extremely hardened",
+    "definition": "Stubbornly refusing to change one's opinion or course of action.",
+    "example": "The obdurate manager refused to hear any suggestions for improvement from her team.",
+    "memory_tip": "OB-DURATE — OBstinately DURABLE in your position! Hard as a rock!",
+    "category": "behavior",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Open-minded and willing to change",
+      "Easily persuaded by new evidence",
+      "Eager to consider alternative viewpoints"
+    ]
+  },
+  {
+    "id": 35,
+    "word": "Ostentatious",
+    "part_of_speech": "adjective",
+    "root": "ostentare (Latin) = to display",
+    "root_meaning": "Showing off for effect",
+    "definition": "Characterized by vulgar or pretentious display; designed to impress.",
+    "example": "The ostentatious mansion had gold-plated faucets and a private bowling alley.",
+    "memory_tip": "OSTENTA-tious — OSTEN = to show off, TATIOU = lavishly! Showing everything off!",
+    "category": "behavior",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Modest and understated in presentation",
+      "Simple and functional without decoration",
+      "Hidden away and deliberately secretive"
+    ]
+  },
+  {
+    "id": 36,
+    "word": "Reticent",
+    "part_of_speech": "adjective",
+    "root": "reticere (Latin) = to keep silent",
+    "root_meaning": "Inclined to keep silent",
+    "definition": "Not revealing one's thoughts or feelings readily; reserved; quiet.",
+    "example": "Although brilliant, she was reticent in class and rarely volunteered answers.",
+    "memory_tip": "RETI-CENT — RETI as in retired/holding back + CENT = holding back your two cents!",
+    "category": "behavior",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Extremely talkative and open about feelings",
+      "Eager to share opinions at every opportunity",
+      "Known for being outgoing and expressive"
+    ]
+  },
+  {
+    "id": 37,
+    "word": "Sardonic",
+    "part_of_speech": "adjective",
+    "root": "Sardonios (Greek) = Sardinian herb (causes grimace)",
+    "root_meaning": "Bitter, scornful laughter",
+    "definition": "Grimly mocking or cynical; disdainfully humorous.",
+    "example": "His sardonic comment about their 'brilliant' plan made everyone uncomfortable.",
+    "memory_tip": "SAR-DONIC — SARcastic + ironic = SARDONIC! Bitter, mocking humor!",
+    "category": "communication",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Warm and genuinely encouraging",
+      "Innocent and straightforward humor",
+      "Enthusiastic and full of sincerity"
+    ]
+  },
+  {
+    "id": 38,
+    "word": "Supercilious",
+    "part_of_speech": "adjective",
+    "root": "supercilium (Latin) = eyebrow",
+    "root_meaning": "Raising one's eyebrow in contempt",
+    "definition": "Behaving or looking as though one is superior to others; condescending.",
+    "example": "The supercilious waiter made guests feel unwelcome with his disdainful looks.",
+    "memory_tip": "SUPER-cilious — 'SUPER' is above everyone, CILIOU = looking down with raised brows!",
+    "category": "character",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Extremely humble and self-deprecating",
+      "Kind and respectful to everyone equally",
+      "Shy and uncomfortable around others"
+    ]
+  },
+  {
+    "id": 39,
+    "word": "Vacuous",
+    "part_of_speech": "adjective",
+    "root": "vacuus (Latin) = empty",
+    "root_meaning": "Empty or void",
+    "definition": "Having or showing a lack of thought or intelligence; empty.",
+    "example": "The reality show was filled with vacuous celebrities who had nothing meaningful to say.",
+    "memory_tip": "VACU-ous — like a VACUUM — empty inside! Vacuous means nothing inside!",
+    "category": "intelligence",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Filled with deep wisdom and insight",
+      "Densely packed with important ideas",
+      "Known for profound and original thinking"
+    ]
+  },
+  {
+    "id": 40,
+    "word": "Virulent",
+    "part_of_speech": "adjective",
+    "root": "virus (Latin) = poison",
+    "root_meaning": "Full of poison",
+    "definition": "Extremely harmful or poisonous; bitterly hostile.",
+    "example": "The virulent disease spread rapidly, overwhelming hospitals across the region.",
+    "memory_tip": "VIRU-lent — VIRUS + LENT = filled with (virus) poison! Deadly and hostile!",
+    "category": "evaluation",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Completely harmless and easily treated",
+      "Beneficial to the immune system",
+      "Spreading goodwill and positive energy"
+    ]
+  }
+]

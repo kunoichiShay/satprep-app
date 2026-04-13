@@ -678,5 +678,685 @@
       "Beneficial to the immune system",
       "Spreading goodwill and positive energy"
     ]
+  },
+  {
+    "id": 41,
+    "word": "Abase",
+    "part_of_speech": "verb",
+    "root": "a (Latin) = down + bassus = low",
+    "root_meaning": "To bring down low",
+    "definition": "To lower someone in rank, status, or dignity; to humiliate.",
+    "example": "The dictator used public humiliations to abase political opponents and break their spirit.",
+    "memory_tip": "A-BASE — to bring someone down to their BASE level, stripping their dignity!",
+    "category": "behavior",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "To elevate someone to a higher position",
+      "To praise someone publicly and sincerely",
+      "To grant someone additional authority"
+    ]
+  },
+  {
+    "id": 42,
+    "word": "Abate",
+    "part_of_speech": "verb",
+    "root": "abattre (Old French) = to beat down",
+    "root_meaning": "To beat down or reduce",
+    "definition": "To become less intense, severe, or widespread; to diminish.",
+    "example": "After hours of heavy rain, the storm finally began to abate, and the sun emerged.",
+    "memory_tip": "ABATE — like a BAIT that FADES. The storm takes the bait and fades away!",
+    "category": "change",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "To grow stronger and more intense over time",
+      "To remain perfectly constant without change",
+      "To spread rapidly to new areas"
+    ]
+  },
+  {
+    "id": 43,
+    "word": "Abhor",
+    "part_of_speech": "verb",
+    "root": "ab (Latin) = away + horrere = to shudder",
+    "root_meaning": "To shudder away from",
+    "definition": "To regard with disgust and hatred; to detest intensely.",
+    "example": "She abhorred dishonesty and refused to work with anyone who had deceived her.",
+    "memory_tip": "AB-HOR — ABsolutely HORrified! To abhor is to feel total horror toward something!",
+    "category": "emotion",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "To admire deeply and with great respect",
+      "To feel neutral or indifferent toward",
+      "To tolerate despite personal reservations"
+    ]
+  },
+  {
+    "id": 44,
+    "word": "Alacrity",
+    "part_of_speech": "noun",
+    "root": "alacer (Latin) = lively, eager",
+    "root_meaning": "Liveliness and eagerness",
+    "definition": "Brisk and cheerful readiness; eager willingness to do something.",
+    "example": "The volunteers tackled the cleanup project with remarkable alacrity, finishing hours ahead of schedule.",
+    "memory_tip": "ALAC-RITY — ALERT + CITY = an ALERT, quick-moving energy! Ready to go!",
+    "category": "behavior",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Extreme reluctance and unwillingness to act",
+      "A slow and cautious approach to tasks",
+      "Deep fatigue and lack of motivation"
+    ]
+  },
+  {
+    "id": 45,
+    "word": "Allay",
+    "part_of_speech": "verb",
+    "root": "alecgan (Old English) = to put down",
+    "root_meaning": "To lay down or put to rest",
+    "definition": "To diminish or put at rest (fear, suspicion, or worry); to relieve.",
+    "example": "The doctor's calm explanation helped allay the patient's fears about the surgery.",
+    "memory_tip": "ALLAY — to LAY fears to rest, making them go AWAY. ALL-AY your worries!",
+    "category": "emotion",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "To intensify a fear or concern",
+      "To completely ignore a problem",
+      "To create new sources of worry"
+    ]
+  },
+  {
+    "id": 46,
+    "word": "Ambiguous",
+    "part_of_speech": "adjective",
+    "root": "ambi (Latin) = both ways + agere = to drive",
+    "root_meaning": "Driven in both directions",
+    "definition": "Open to more than one interpretation; not having a clear meaning.",
+    "example": "The contract contained ambiguous wording that each side interpreted differently in court.",
+    "memory_tip": "AMBI-guous — AMBIdextrous uses BOTH hands; ambiguous goes BOTH ways in meaning!",
+    "category": "communication",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Having only one clear and obvious meaning",
+      "Expressed with perfect precision and clarity",
+      "Containing no room for misunderstanding"
+    ]
+  },
+  {
+    "id": 47,
+    "word": "Ambivalent",
+    "part_of_speech": "adjective",
+    "root": "ambi (Latin) = both + valere = to be strong",
+    "root_meaning": "Strong in both directions",
+    "definition": "Having mixed or contradictory feelings about something or someone.",
+    "example": "She felt ambivalent about moving abroad — excited for adventure but sad to leave family.",
+    "memory_tip": "AMBI-VALENT — valuing BOTH sides equally! Pulled in two directions at once!",
+    "category": "emotion",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Completely certain and confident in one's feelings",
+      "Feeling nothing at all about a situation",
+      "Strongly committed to a single viewpoint"
+    ]
+  },
+  {
+    "id": 48,
+    "word": "Antipathy",
+    "part_of_speech": "noun",
+    "root": "anti (Greek) = against + pathos = feeling",
+    "root_meaning": "Feeling against",
+    "definition": "A deep-seated feeling of dislike; strong aversion.",
+    "example": "His antipathy toward loud music made every concert feel like an ordeal.",
+    "memory_tip": "ANTI-PATHY — ANTI (against) + PATH = a feeling that blocks your PATH to liking something!",
+    "category": "emotion",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "A powerful feeling of attraction and admiration",
+      "Complete emotional indifference",
+      "A mild and temporary discomfort"
+    ]
+  },
+  {
+    "id": 49,
+    "word": "Ardor",
+    "part_of_speech": "noun",
+    "root": "ardor (Latin) = fire, flame",
+    "root_meaning": "A burning flame of passion",
+    "definition": "Great enthusiasm or passion; intense emotion.",
+    "example": "The young activist spoke with such ardor that the crowd was moved to join the cause.",
+    "memory_tip": "ARDOR — ARDently burning! The FIRE of passion, like an ARDent flame!",
+    "category": "emotion",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "A cool and detached attitude toward a goal",
+      "Complete lack of interest or motivation",
+      "Mild, passing curiosity about a subject"
+    ]
+  },
+  {
+    "id": 50,
+    "word": "Ascetic",
+    "part_of_speech": "adjective",
+    "root": "askētikos (Greek) = rigorously self-disciplined",
+    "root_meaning": "Exercising strict self-discipline",
+    "definition": "Characterized by severe self-discipline; abstaining from pleasure and comfort.",
+    "example": "The ascetic monk owned nothing but a robe and slept on a bare stone floor.",
+    "memory_tip": "ASCETIC — ACID + STRICT = a strictly acid-test lifestyle, stripped of all luxuries!",
+    "category": "behavior",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Devoted to luxury and extravagant living",
+      "Seeking pleasure and comfort above all else",
+      "Known for lavish spending and indulgence"
+    ]
+  },
+  {
+    "id": 51,
+    "word": "Assiduous",
+    "part_of_speech": "adjective",
+    "root": "assidere (Latin) = to sit beside constantly",
+    "root_meaning": "Sitting diligently at one's work",
+    "definition": "Showing great care, diligence, and perseverance; hardworking.",
+    "example": "The assiduous student reviewed her notes every night and aced every exam.",
+    "memory_tip": "ASSI-DUOUS — ASSIduous people ASSIST themselves by working DUOUSLY (doubly hard)!",
+    "category": "behavior",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Lazy and prone to avoiding effort",
+      "Working only when closely supervised",
+      "Quick to abandon tasks when they become difficult"
+    ]
+  },
+  {
+    "id": 52,
+    "word": "Astute",
+    "part_of_speech": "adjective",
+    "root": "astutus (Latin) = crafty, clever",
+    "root_meaning": "Cleverly perceptive",
+    "definition": "Having or showing an ability to assess situations accurately; shrewd.",
+    "example": "The astute businesswoman spotted the market opportunity months before her competitors.",
+    "memory_tip": "AS-TUTE — a CUTE sharp mind! AS TUTE as a tutor — clever and perceptive!",
+    "category": "intelligence",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Unable to read people or situations accurately",
+      "Easily fooled and taken advantage of",
+      "Slow to understand complex situations"
+    ]
+  },
+  {
+    "id": 53,
+    "word": "Audacious",
+    "part_of_speech": "adjective",
+    "root": "audax (Latin) = bold, daring",
+    "root_meaning": "Having bold daring",
+    "definition": "Showing a willingness to take bold, surprisingly daring risks.",
+    "example": "The audacious heist involved disguises, forged documents, and a helicopter escape.",
+    "memory_tip": "AUDA-cious — AUDIO turned up to max! Boldly LOUD and daring in every action!",
+    "category": "behavior",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Timid and easily intimidated by challenges",
+      "Cautious and unwilling to take any risks",
+      "Obedient and unlikely to break the rules"
+    ]
+  },
+  {
+    "id": 54,
+    "word": "Auspicious",
+    "part_of_speech": "adjective",
+    "root": "auspicium (Latin) = bird omen",
+    "root_meaning": "Favorable omen seen in birds",
+    "definition": "Giving a good indication of future success; favorable; promising.",
+    "example": "Winning the first game of the season was an auspicious start for the new coach.",
+    "memory_tip": "AUSPI-cious — SUSPICIOUS of good luck? AUSPICIOUS means the omens are FOR you!",
+    "category": "evaluation",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Indicating a very likely failure ahead",
+      "Showing warning signs of coming trouble",
+      "Completely neutral with no implications for success"
+    ]
+  },
+  {
+    "id": 55,
+    "word": "Avarice",
+    "part_of_speech": "noun",
+    "root": "avaritia (Latin) = greediness",
+    "root_meaning": "Extreme desire for wealth",
+    "definition": "Extreme greed for wealth or material gain; insatiable desire for riches.",
+    "example": "His avarice drove him to steal from his own family to fund his lavish lifestyle.",
+    "memory_tip": "AVAR-ICE — HAVE-RICE: always wanting to HAVE more RICE (wealth)! Greedy!",
+    "category": "character",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "A deep generosity and desire to give wealth away",
+      "Complete indifference to money and possessions",
+      "A preference for simple and humble living"
+    ]
+  },
+  {
+    "id": 56,
+    "word": "Bombastic",
+    "part_of_speech": "adjective",
+    "root": "bombax (Greek) = cotton padding",
+    "root_meaning": "Padded out with stuffing",
+    "definition": "High-sounding but having little real meaning; inflated and pompous in speech.",
+    "example": "The politician's bombastic speech was full of grand promises but offered no real plan.",
+    "memory_tip": "BOMB-astic — it BOMBS with big BLASTS of hot air! All explosion, no substance!",
+    "category": "communication",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Simple, direct, and to the point",
+      "Carefully reasoned and precise in language",
+      "Quiet and understated in delivery"
+    ]
+  },
+  {
+    "id": 57,
+    "word": "Candor",
+    "part_of_speech": "noun",
+    "root": "candor (Latin) = whiteness, purity",
+    "root_meaning": "White, pure, and open",
+    "definition": "The quality of being open and honest; frankness; sincerity.",
+    "example": "We appreciated her candor when she told us exactly what went wrong in the project.",
+    "memory_tip": "CAN-DOR — CAN you be honest? CAN't hide the truth with CANDOR — it's wide open!",
+    "category": "character",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "A habit of hiding one's true thoughts",
+      "The tendency to exaggerate and embellish",
+      "Deliberate vagueness to avoid controversy"
+    ]
+  },
+  {
+    "id": 58,
+    "word": "Caustic",
+    "part_of_speech": "adjective",
+    "root": "kaustikos (Greek) = burning",
+    "root_meaning": "Capable of burning",
+    "definition": "Sarcastic in a scathing and biting way; able to burn or corrode.",
+    "example": "Her caustic wit could reduce even the most confident person to silence.",
+    "memory_tip": "CAUSTIC — CAUST like COMBUSTION! Burns through things — even feelings!",
+    "category": "communication",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Gentle and carefully considerate of others' feelings",
+      "Warm, encouraging, and supportive in tone",
+      "Neutral and completely unemotional"
+    ]
+  },
+  {
+    "id": 59,
+    "word": "Clemency",
+    "part_of_speech": "noun",
+    "root": "clemens (Latin) = mild, calm",
+    "root_meaning": "Mildness toward wrongdoers",
+    "definition": "Mercy and leniency shown toward an offender or enemy; mildness.",
+    "example": "The governor showed clemency by pardoning the prisoner who had reformed his life.",
+    "memory_tip": "CLEMENT weather is MILD! CLEMENCY is mild, merciful treatment — like calm weather!",
+    "category": "character",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Harsh and severe punishment without mercy",
+      "The strict enforcement of rules with no exceptions",
+      "Indifference to the suffering of others"
+    ]
+  },
+  {
+    "id": 60,
+    "word": "Convoluted",
+    "part_of_speech": "adjective",
+    "root": "convolutus (Latin) = rolled together",
+    "root_meaning": "Rolled into a complex shape",
+    "definition": "Extremely complex and difficult to follow; intricately twisted.",
+    "example": "The convoluted tax code confused even experienced accountants.",
+    "memory_tip": "CON-VOLUTED — COILED and VOLUMINOUS, twisted into a knot! Complex and tangled!",
+    "category": "intelligence",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Remarkably simple and easy to understand",
+      "Perfectly clear and logically organized",
+      "Brief and to the point"
+    ]
+  },
+  {
+    "id": 61,
+    "word": "Copious",
+    "part_of_speech": "adjective",
+    "root": "copia (Latin) = abundance",
+    "root_meaning": "Full of abundance",
+    "definition": "Abundant in supply or quantity; in large amounts.",
+    "example": "She took copious notes during the lecture, filling an entire notebook.",
+    "memory_tip": "COPI-ous — COPY after COPY after COPY! Lots and lots of everything!",
+    "category": "quantity",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Extremely scarce and difficult to find",
+      "Barely sufficient to meet basic needs",
+      "Present in only tiny, insignificant amounts"
+    ]
+  },
+  {
+    "id": 62,
+    "word": "Daunting",
+    "part_of_speech": "adjective",
+    "root": "danter (Old French) = to tame or subdue",
+    "root_meaning": "Making one feel subdued",
+    "definition": "Seeming difficult to deal with in anticipation; intimidating.",
+    "example": "Climbing Everest seemed a daunting challenge, but she trained for two years and succeeded.",
+    "memory_tip": "DAUNT-ing — a DAUNT is a dare that's DAUNTING — makes you hesitate with fear!",
+    "category": "evaluation",
+    "difficulty": 1,
+    "wrong_definitions": [
+      "Remarkably simple and easily achievable",
+      "Encouraging and full of positive energy",
+      "Completely familiar and comfortable"
+    ]
+  },
+  {
+    "id": 63,
+    "word": "Debacle",
+    "part_of_speech": "noun",
+    "root": "débâcler (French) = to unbar, unleash",
+    "root_meaning": "A sudden unleashing of chaos",
+    "definition": "A sudden, complete disaster or failure; a chaotic collapse.",
+    "example": "The product launch was a debacle — the website crashed and orders were lost.",
+    "memory_tip": "DE-BACLE — the BACLE (bar) breaks and everything FALLS apart! Total chaos!",
+    "category": "evaluation",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "A carefully planned and flawlessly executed event",
+      "A slow, gradual improvement over time",
+      "A minor setback that is easily fixed"
+    ]
+  },
+  {
+    "id": 64,
+    "word": "Deleterious",
+    "part_of_speech": "adjective",
+    "root": "deleterios (Greek) = destructive",
+    "root_meaning": "Causing destruction or harm",
+    "definition": "Causing harm or damage; injurious to health or well-being.",
+    "example": "Smoking has well-documented deleterious effects on the lungs and cardiovascular system.",
+    "memory_tip": "DELETE-rious — DELETE = to erase! Deleterious DELETES your health — it's harmful!",
+    "category": "evaluation",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Remarkably beneficial to one's health",
+      "Completely harmless and neutral in effect",
+      "Gradually improving conditions over time"
+    ]
+  },
+  {
+    "id": 65,
+    "word": "Diffident",
+    "part_of_speech": "adjective",
+    "root": "dis (Latin) = away + fidere = to trust",
+    "root_meaning": "Lacking trust in oneself",
+    "definition": "Modest or shy because of a lack of self-confidence; reserved.",
+    "example": "Despite her talent, she was too diffident to audition for the lead role.",
+    "memory_tip": "DIFFI-DENT — DIFFICULT + CONFIDENT = not confident at all! Shy and modest!",
+    "category": "behavior",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Brash and overconfident in every situation",
+      "Openly proud of one's abilities and achievements",
+      "Eager to show off skills in front of others"
+    ]
+  },
+  {
+    "id": 66,
+    "word": "Duplicity",
+    "part_of_speech": "noun",
+    "root": "duplex (Latin) = twofold",
+    "root_meaning": "Having a double or two-faced nature",
+    "definition": "Deceitfulness; saying one thing and meaning or doing another.",
+    "example": "His duplicity was revealed when both parties discovered he had been negotiating against them.",
+    "memory_tip": "DUPLI-CITY — DUPLICATE face! Two-faced, double-dealing in the CITY of lies!",
+    "category": "character",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Complete transparency and total honesty",
+      "Consistency between one's words and actions",
+      "A tendency to say what one means directly"
+    ]
+  },
+  {
+    "id": 67,
+    "word": "Ebullient",
+    "part_of_speech": "adjective",
+    "root": "ebullire (Latin) = to bubble up",
+    "root_meaning": "Bubbling over with energy",
+    "definition": "Cheerful and full of energy; overflowing with enthusiasm.",
+    "example": "Her ebullient personality lit up every room she walked into.",
+    "memory_tip": "E-BULL-ient — a BULL full of energy, BUBBLING over with excitement! Energetic!",
+    "category": "emotion",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Quiet, withdrawn, and emotionally flat",
+      "Deeply pessimistic and hard to cheer up",
+      "Reserved and uncomfortable in social settings"
+    ]
+  },
+  {
+    "id": 68,
+    "word": "Erudite",
+    "part_of_speech": "adjective",
+    "root": "erudire (Latin) = to educate thoroughly",
+    "root_meaning": "Thoroughly educated and polished",
+    "definition": "Having or showing great knowledge or learning; scholarly.",
+    "example": "The erudite professor could quote literature, science, and philosophy from memory.",
+    "memory_tip": "ERU-DITE — like a RUDE-KNIGHT of knowledge, armed with DITE (learning)!",
+    "category": "intelligence",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Poorly educated and lacking basic knowledge",
+      "Knowledgeable only in one narrow area",
+      "Unwilling to learn or accept new ideas"
+    ]
+  },
+  {
+    "id": 69,
+    "word": "Esoteric",
+    "part_of_speech": "adjective",
+    "root": "esōterikos (Greek) = belonging to an inner circle",
+    "root_meaning": "Known only by a chosen few",
+    "definition": "Intended for or understood by only a small number of people with special knowledge.",
+    "example": "The lecture on quantum topology was so esoteric that few students could follow along.",
+    "memory_tip": "ESO-TERIC — ESO = inner! Like an INNER circle of knowledge, SECRET to outsiders!",
+    "category": "intelligence",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Commonly known and understood by nearly everyone",
+      "Simple enough for young children to grasp",
+      "Widely taught in every school curriculum"
+    ]
+  },
+  {
+    "id": 70,
+    "word": "Fervent",
+    "part_of_speech": "adjective",
+    "root": "fervere (Latin) = to boil, to glow",
+    "root_meaning": "Boiling with passion",
+    "definition": "Having or displaying a passionate intensity; intensely enthusiastic.",
+    "example": "The fervent crowd chanted nonstop for two hours at the championship rally.",
+    "memory_tip": "FERVENT — FERVENT-ly boiling! Like FEVER + ENT — burning with intense passion!",
+    "category": "emotion",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Calm and emotionally detached",
+      "Mildly interested but not enthusiastic",
+      "Reluctant and unenthusiastic about a cause"
+    ]
+  },
+  {
+    "id": 71,
+    "word": "Furtive",
+    "part_of_speech": "adjective",
+    "root": "furtivus (Latin) = stolen, secret",
+    "root_meaning": "Done by stealth or secrecy",
+    "definition": "Attempting to avoid notice or attention; secretive and sly.",
+    "example": "He cast a furtive glance over his shoulder before slipping the note under the door.",
+    "memory_tip": "FURTIVE — like a THIEF in FUR sneaking around! FURtive = sneaky and stealthy!",
+    "category": "behavior",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Openly confident and without any attempt to hide",
+      "Loud and attention-seeking in behavior",
+      "Straightforward and completely transparent"
+    ]
+  },
+  {
+    "id": 72,
+    "word": "Gregarious",
+    "part_of_speech": "adjective",
+    "root": "grex (Latin) = flock, herd",
+    "root_meaning": "Fond of being in a flock",
+    "definition": "Fond of company; sociable; enjoying the company of others.",
+    "example": "The gregarious student made friends on her first day at every new school she attended.",
+    "memory_tip": "GREG-arious — like GREG, who's always surrounded by a GROUP! Social butterfly!",
+    "category": "behavior",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Reclusive and actively avoiding social interaction",
+      "Hostile and unfriendly toward strangers",
+      "Comfortable only in one-on-one settings"
+    ]
+  },
+  {
+    "id": 73,
+    "word": "Hackneyed",
+    "part_of_speech": "adjective",
+    "root": "Hackney (a London district) = overused hired horses",
+    "root_meaning": "Worn out from overuse",
+    "definition": "Lacking originality or freshness; made tedious by overuse; clichéd.",
+    "example": "The screenplay was full of hackneyed phrases and predictable plot twists.",
+    "memory_tip": "HACK-NEYED — a HACK (bad writer) uses tired, worn NEYED (knackered) old phrases!",
+    "category": "communication",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Strikingly original and brilliantly creative",
+      "Surprising and unlike anything seen before",
+      "Fresh and newly coined for the first time"
+    ]
+  },
+  {
+    "id": 74,
+    "word": "Insidious",
+    "part_of_speech": "adjective",
+    "root": "insidiae (Latin) = ambush",
+    "root_meaning": "Lying in ambush, treacherous",
+    "definition": "Proceeding in a gradual, subtle way but with harmful effects; treacherous.",
+    "example": "The insidious spread of misinformation was hard to combat because it looked like fact.",
+    "memory_tip": "IN-SIDIOUS — the danger HIDES INSIDE, like a trap waiting to spring!",
+    "category": "evaluation",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Obvious and openly destructive",
+      "Completely harmless and easy to identify",
+      "Beneficial in slow, steady increments"
+    ]
+  },
+  {
+    "id": 75,
+    "word": "Languish",
+    "part_of_speech": "verb",
+    "root": "languere (Latin) = to be faint or weak",
+    "root_meaning": "To grow weak and listless",
+    "definition": "To lose or lack vitality; to suffer from being in an unpleasant situation.",
+    "example": "The talented athlete languished on the bench all season, waiting for her chance to play.",
+    "memory_tip": "LANGUID + ANGUISH = LANGUISH — a languid (lazy) anguish, slowly fading away!",
+    "category": "emotion",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "To grow stronger and thrive in difficult conditions",
+      "To burst into activity and renewed energy",
+      "To succeed rapidly despite obstacles"
+    ]
+  },
+  {
+    "id": 76,
+    "word": "Mercurial",
+    "part_of_speech": "adjective",
+    "root": "Mercurius (Latin) = Mercury, messenger god",
+    "root_meaning": "Like Mercury — swift and changeable",
+    "definition": "Subject to sudden or unpredictable changes of mood; volatile; quicksilver.",
+    "example": "Her mercurial temperament made it impossible to predict whether she'd be cheerful or furious.",
+    "memory_tip": "MERCURIAL — MERCURY the planet zips around the sun fastest! Quick-changing and volatile!",
+    "category": "behavior",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Steady and completely predictable in mood",
+      "Calm and never prone to emotional outbursts",
+      "Slow to change and highly consistent"
+    ]
+  },
+  {
+    "id": 77,
+    "word": "Negligent",
+    "part_of_speech": "adjective",
+    "root": "neglegere (Latin) = to disregard",
+    "root_meaning": "Choosing to ignore duty",
+    "definition": "Failing to take proper care in doing something; careless about one's responsibilities.",
+    "example": "The negligent lifeguard was distracted by his phone when a swimmer got into trouble.",
+    "memory_tip": "NEGLI-GENT — a GENT who NEGLEcts his duties! Careless and inattentive!",
+    "category": "behavior",
+    "difficulty": 1,
+    "wrong_definitions": [
+      "Extremely attentive and careful in all duties",
+      "Overly cautious to the point of being slow",
+      "Thorough and meticulous in every task"
+    ]
+  },
+  {
+    "id": 78,
+    "word": "Obstinate",
+    "part_of_speech": "adjective",
+    "root": "obstinare (Latin) = to stand firm against",
+    "root_meaning": "Stubbornly standing one's ground",
+    "definition": "Stubbornly refusing to change one's opinion or chosen course of action.",
+    "example": "The obstinate child refused to eat vegetables no matter how they were prepared.",
+    "memory_tip": "OB-STINATE — OBSTacles don't stop them; STINATE = staying PUT! Stubbornly fixed!",
+    "category": "behavior",
+    "difficulty": 2,
+    "wrong_definitions": [
+      "Easily persuaded and quick to change one's mind",
+      "Open to all viewpoints and highly flexible",
+      "Indecisive and constantly changing position"
+    ]
+  },
+  {
+    "id": 79,
+    "word": "Querulous",
+    "part_of_speech": "adjective",
+    "root": "querulus (Latin) = complaining",
+    "root_meaning": "Given to complaining",
+    "definition": "Complaining in a petulant or whining manner; constantly finding fault.",
+    "example": "The querulous passenger complained about everything from the temperature to the seat width.",
+    "memory_tip": "QUER-ULOUS — QUER sounds like QUARREL! Always quarreling and whining!",
+    "category": "behavior",
+    "difficulty": 4,
+    "wrong_definitions": [
+      "Cheerful and positive even in difficult situations",
+      "Grateful and appreciative of whatever is offered",
+      "Quiet and content without expressing any complaints"
+    ]
+  },
+  {
+    "id": 80,
+    "word": "Sanguine",
+    "part_of_speech": "adjective",
+    "root": "sanguis (Latin) = blood",
+    "root_meaning": "Having warm blood; cheerful",
+    "definition": "Optimistic or positive, especially in a difficult situation; cheerfully confident.",
+    "example": "Despite the setbacks, she remained sanguine and convinced the project would succeed.",
+    "memory_tip": "SANGUINE — SANG + WINE! Singing over wine! Rosy-cheeked and optimistic!",
+    "category": "emotion",
+    "difficulty": 3,
+    "wrong_definitions": [
+      "Deeply pessimistic and expecting the worst",
+      "Anxious and paralyzed by worst-case thinking",
+      "Indifferent and emotionally flat"
+    ]
   }
 ]

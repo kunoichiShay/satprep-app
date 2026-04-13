@@ -3,12 +3,10 @@
     <!-- Header -->
     <header class="header">
       <div>
-        <div class="greeting">Good {{ timeOfDay }}, {{ player.name }}</div>
+        <div class="greeting">Good {{ timeOfDay }}, {{ currentUser?.firstName }}</div>
         <div class="app-title">SATPrep</div>
       </div>
-      <div class="avatar">
-        <div class="avatar-dot"></div>
-      </div>
+      <div class="avatar">{{ initials }}</div>
     </header>
 
     <!-- Streak banner -->
@@ -82,7 +80,12 @@ import { useStore } from '../store/gameStore.js'
 import { ALL_WORDS } from '../models/WordModel.js'
 
 const router = useRouter()
-const { player, accuracy, learnedCount } = useStore()
+const { player, currentUser, accuracy, learnedCount } = useStore()
+
+const initials = computed(() => {
+  if (!currentUser) return '?'
+  return (currentUser.firstName[0] + (currentUser.lastName?.[0] ?? '')).toUpperCase()
+})
 
 const timeOfDay = computed(() => {
   const h = new Date().getHours()
@@ -146,18 +149,15 @@ function startQuickQuiz () {
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  background: #1a2d50;
-  border: 1.5px solid #2a4070;
+  background: #1a3d7c;
+  border: 1.5px solid #2a5aa8;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.avatar-dot {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: #3d7bd4;
+  font-size: 13px;
+  font-weight: 700;
+  color: #cce0ff;
+  flex-shrink: 0;
 }
 
 .streak-banner {

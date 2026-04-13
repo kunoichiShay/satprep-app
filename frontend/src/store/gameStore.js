@@ -5,8 +5,10 @@
 
 import { reactive, computed } from 'vue'
 import { Player } from '../models/Player.js'
+import { UserStore } from '../models/UserStore.js'
 
-const player = reactive(Player.load())
+const currentUser = UserStore.getCurrentUser()
+const player      = reactive(Player.load(currentUser?.id ?? 'guest'))
 
 // Check/update daily streak once when the app loads
 player.checkDailyStreak()
@@ -14,6 +16,15 @@ player.checkDailyStreak()
 export function useStore () {
   return {
     player,
+
+    /** Currently logged-in user profile (id, firstName, lastName, email). */
+    currentUser,
+
+    /** Log out and do a full page reload to reset all module state. */
+    logout () {
+      UserStore.logout()
+      window.location.reload()
+    },
 
     /** Add XP and return result (see Player.addXP). */
     addXP (amount) {

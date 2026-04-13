@@ -25,11 +25,9 @@ export const XP_REWARDS = {
   DAILY_LOGIN:      10,
 }
 
-const STORAGE_KEY = 'satprep_player'
-
 export class Player {
-  constructor (data = {}) {
-    this.name           = data.name           ?? 'Alex'
+  constructor (data = {}, userId = 'guest') {
+    this._storageKey    = `satprep_player_${userId}`
     this.xp             = data.xp             ?? 0
     this.streakDays     = data.streakDays      ?? 0
     this.lastActiveDate = data.lastActiveDate  ?? null
@@ -38,20 +36,20 @@ export class Player {
     this.correctAnswers = data.correctAnswers  ?? 0
   }
 
-  /** Restore from localStorage; returns new Player if nothing saved. */
-  static load () {
+  /** Restore from localStorage for a given userId; returns new Player if nothing saved. */
+  static load (userId = 'guest') {
     try {
-      const raw = localStorage.getItem(STORAGE_KEY)
-      return new Player(raw ? JSON.parse(raw) : {})
+      const key = `satprep_player_${userId}`
+      const raw = localStorage.getItem(key)
+      return new Player(raw ? JSON.parse(raw) : {}, userId)
     } catch {
-      return new Player()
+      return new Player({}, userId)
     }
   }
 
   /** Persist current state to localStorage. */
   save () {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify({
-      name:           this.name,
+    localStorage.setItem(this._storageKey, JSON.stringify({
       xp:             this.xp,
       streakDays:     this.streakDays,
       lastActiveDate: this.lastActiveDate,

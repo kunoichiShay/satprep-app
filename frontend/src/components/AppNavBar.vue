@@ -12,8 +12,17 @@
       <span class="nav-icon">🎮</span>
       <span class="nav-label">Games</span>
     </router-link>
+    <button class="nav-item nav-item--logout" @click="logout">
+      <span class="nav-icon">⏻</span>
+      <span class="nav-label">Sign Out</span>
+    </button>
   </nav>
 </template>
+
+<script setup>
+import { useStore } from '../store/gameStore.js'
+const { logout } = useStore()
+</script>
 
 <style scoped>
 .navbar {
@@ -42,6 +51,18 @@
 
 .nav-item--active {
   color: #4a9eff;
+}
+
+.nav-item--logout {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+}
+
+.nav-item--logout:hover {
+  color: #ff7090;
 }
 
 .nav-icon {

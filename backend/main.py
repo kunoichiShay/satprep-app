@@ -11,7 +11,7 @@ app = FastAPI(title="SATPrep API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "https://satprep-app.onrender.com"],
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )

@@ -1,74 +1,69 @@
 /**
- * UserStore — manages multiple user accounts.
- * All data is persisted to localStorage as JSON under two keys:
- *   satprep_users   → array of user profile objects
- *   satprep_session → id of the currently logged-in user
+ * UserStore — manages user accounts via the FastAPI backend.
+ *
+ * After a successful login/register the user profile (without password) is
+ * cached in localStorage under SESSION_KEY so getCurrentUser() is synchronous
+ * and the app can boot without an extra network request.
+ *
+ * Game progress (XP, streaks, learned words) continues to be stored in
+ * localStorage keyed by userId.
  */
 
-const USERS_KEY   = 'satprep_users'
+const API         = 'http://localhost:8000'
 const SESSION_KEY = 'satprep_session'
 
-function readUsers () {
+function readSession () {
   try {
-    return JSON.parse(localStorage.getItem(USERS_KEY) || '[]')
+    return JSON.parse(localStorage.getItem(SESSION_KEY))
   } catch {
-    return []
+    return null
   }
 }
 
-function writeUsers (users) {
-  localStorage.setItem(USERS_KEY, JSON.stringify(users))
-}
-
 export const UserStore = {
-  /** Return all registered users. */
-  getAllUsers () {
-    return readUsers()
-  },
-
-  /** Return the currently logged-in user object, or null. */
+  /** Return the cached user profile for the current session, or null. */
   getCurrentUser () {
-    const userId = localStorage.getItem(SESSION_KEY)
-    if (!userId) return null
-    return readUsers().find(u => u.id === userId) ?? null
+    return readSession()
   },
 
   /**
-   * Register a new account.
-   * Returns { ok: true, user } on success or { ok: false, error: string }.
+   * Register a new account via the backend.
+   * Returns { ok: true, user } or { ok: false, error: string }.
    */
-  register ({ firstName, lastName, email, password }) {
-    const users = readUsers()
-    if (users.find(u => u.email.toLowerCase() === email.trim().toLowerCase())) {
-      return { ok: false, error: 'An account with that email already exists.' }
+  async register ({ firstName, lastName, email, password }) {
+    try {
+      const res  = await fetch(`${API}/auth/register`, {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body:    JSON.stringify({ firstName, lastName, email, password }),
+      })
+      const data = await res.json()
+      if (!res.ok) return { ok: false, error: data.detail ?? 'Registration failed.' }
+      localStorage.setItem(SESSION_KEY, JSON.stringify(data))
+      return { ok: true, user: data }
+    } catch {
+      return { ok: false, error: 'Cannot reach the server. Is the backend running?' }
     }
-    const user = {
-      id:        crypto.randomUUID(),
-      firstName: firstName.trim(),
-      lastName:  lastName.trim(),
-      email:     email.trim().toLowerCase(),
-      password,
-      createdAt: new Date().toISOString(),
-    }
-    users.push(user)
-    writeUsers(users)
-    localStorage.setItem(SESSION_KEY, user.id)
-    return { ok: true, user }
   },
 
   /**
-   * Log in with email + password.
-   * Returns { ok: true, user } on success or { ok: false, error: string }.
+   * Log in with email + password via the backend.
+   * Returns { ok: true, user } or { ok: false, error: string }.
    */
-  login (email, password) {
-    const user = readUsers().find(
-      u =>
-        u.email.toLowerCase() === email.trim().toLowerCase() &&
-        u.password === password
-    )
-    if (!user) return { ok: false, error: 'Incorrect email or password.' }
-    localStorage.setItem(SESSION_KEY, user.id)
-    return { ok: true, user }
+  async login (email, password) {
+    try {
+      const res  = await fetch(`${API}/auth/login`, {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body:    JSON.stringify({ email, password }),
+      })
+      const data = await res.json()
+      if (!res.ok) return { ok: false, error: data.detail ?? 'Login failed.' }
+      localStorage.setItem(SESSION_KEY, JSON.stringify(data))
+      return { ok: true, user: data }
+    } catch {
+      return { ok: false, error: 'Cannot reach the server. Is the backend running?' }
+    }
   },
 
   /** Clear the current session (does not delete the account). */

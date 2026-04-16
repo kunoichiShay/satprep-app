@@ -153,9 +153,9 @@ function switchMode (next) {
   errorMsg.value = ''
 }
 
-function submitLogin () {
+async function submitLogin () {
   errorMsg.value = ''
-  const result = UserStore.login(loginEmail.value, loginPassword.value)
+  const result = await UserStore.login(loginEmail.value, loginPassword.value)
   if (!result.ok) {
     errorMsg.value = result.error
     return
@@ -163,13 +163,13 @@ function submitLogin () {
   router.push({ name: 'home' })
 }
 
-function submitRegister () {
+async function submitRegister () {
   errorMsg.value = ''
   if (regPassword.value !== regConfirm.value) {
     errorMsg.value = 'Passwords do not match.'
     return
   }
-  const result = UserStore.register({
+  const result = await UserStore.register({
     firstName: regFirstName.value,
     lastName:  regLastName.value,
     email:     regEmail.value,

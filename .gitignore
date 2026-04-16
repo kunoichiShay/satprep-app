@@ -16,5 +16,8 @@ backend/.venv/
 .env
 .env.*
 
+# User data — never commit real accounts
+backend/users.json
+
 # OS
 .DS_Store

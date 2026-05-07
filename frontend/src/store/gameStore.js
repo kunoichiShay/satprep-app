@@ -1,52 +1,83 @@
-/**
- * Global reactive store — holds the Player and exposes mutation helpers.
- * Import `useStore` in any component; the returned object is always reactive.
- */
-
 import { reactive, computed } from 'vue'
 import { Player } from '../models/Player.js'
 import { UserStore } from '../models/UserStore.js'
 
+const API         = import.meta.env.VITE_API_URL
 const currentUser = UserStore.getCurrentUser()
-const player      = reactive(Player.load(currentUser?.id ?? 'guest'))
 
-// Check/update daily streak once when the app loads
+// Seed the Player from the DB-backed profile stored in the session.
+// Falls back to empty state for guests or first-time loads.
+const player = reactive(new Player(currentUser?.profile ?? {}, currentUser?.id ?? 'guest'))
+
 player.checkDailyStreak()
+_pushProfile()  // persist any streak change that just occurred
+
+// Re-fetch the latest profile from the backend in the background so that
+// progress made on another device is reflected without requiring a re-login.
+if (currentUser) {
+  fetch(`${API}/profile/${currentUser.id}`)
+    .then(r => r.json())
+    .then(({ profile: p }) => {
+      player.xp              = p.xp
+      player.streakDays      = p.streakDays
+      player.lastActiveDate  = p.lastActiveDate
+      player.totalAnswers    = p.totalAnswers
+      player.correctAnswers  = p.correctAnswers
+      player.learnedWords    = p.learnedWords
+      player.save()
+    })
+    .catch(() => {})
+}
+
+function _pushProfile () {
+  if (!currentUser) return
+  fetch(`${API}/profile/${currentUser.id}`, {
+    method:  'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      xp:             player.xp,
+      streakDays:     player.streakDays,
+      lastActiveDate: player.lastActiveDate,
+      totalAnswers:   player.totalAnswers,
+      correctAnswers: player.correctAnswers,
+    }),
+  }).catch(() => {})
+}
 
 export function useStore () {
   return {
     player,
-
-    /** Currently logged-in user profile (id, firstName, lastName, email). */
     currentUser,
 
-    /** Log out and do a full page reload to reset all module state. */
     logout () {
       UserStore.logout()
       window.location.reload()
     },
 
-    /** Add XP and return result (see Player.addXP). */
     addXP (amount) {
-      return player.addXP(amount)
+      const result = player.addXP(amount)
+      _pushProfile()
+      return result
     },
 
-    /** Mark a word learned and award XP. */
     learnWord (wordId) {
       player.learnWord(wordId)
+      if (currentUser) {
+        fetch(`${API}/profile/${currentUser.id}/learned/${wordId}`, { method: 'POST' }).catch(() => {})
+        _pushProfile()
+      }
     },
 
-    /** Record a quiz / game answer. */
     recordAnswer (correct) {
       player.recordAnswer(correct)
+      _pushProfile()
     },
 
-    /** Derived stats as computed refs. */
-    currentLevel:   computed(() => player.currentLevel),
-    nextLevel:      computed(() => player.nextLevel),
-    levelProgress:  computed(() => player.levelProgress),
-    accuracy:       computed(() => player.accuracy),
-    learnedCount:   computed(() => player.learnedWords.length),
-    streak:         computed(() => player.streakDays),
+    currentLevel:  computed(() => player.currentLevel),
+    nextLevel:     computed(() => player.nextLevel),
+    levelProgress: computed(() => player.levelProgress),
+    accuracy:      computed(() => player.accuracy),
+    learnedCount:  computed(() => player.learnedWords.length),
+    streak:        computed(() => player.streakDays),
   }
 }

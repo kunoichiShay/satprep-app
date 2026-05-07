@@ -1,10 +1,27 @@
 services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: satprep
+      POSTGRES_PASSWORD: satprep
+      POSTGRES_DB: satprep
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U satprep"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
   backend:
     build: ./backend
+    environment:
+      DATABASE_URL: postgresql://satprep:satprep@db:5432/satprep
     ports:
       - "8000:8000"
-    volumes:
-      - ./backend/users.json:/app/users.json
+    depends_on:
+      db:
+        condition: service_healthy
 
   frontend:
     build:
@@ -15,3 +32,6 @@ services:
       - "80:80"
     depends_on:
       - backend
+
+volumes:
+  pgdata:

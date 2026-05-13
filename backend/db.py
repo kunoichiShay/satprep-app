@@ -1,5 +1,9 @@
 import os
 from datetime import datetime
+from dotenv import load_dotenv
+
+_env_file = ".env.production" if os.environ.get("APP_ENV") == "production" else ".env"
+load_dotenv(_env_file)
 from sqlalchemy import (
     Column, DateTime, ForeignKey, Integer, String, Text, create_engine,
 )
